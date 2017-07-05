@@ -1,0 +1,43 @@
+/*!
+ * -------------------------------------------------------
+ * Project: Sergio Costa GridSystem with ShortCode
+ * Version: 1.0.0
+ *
+ * Author:  Sergio Costa
+ * URL:     http://republicainterativa.com.br
+ * Contact: sergio.costa@outlook.com
+ *
+ *-------------------------------------------------------- */
+
+// column size 
+$sc-gs-size-g12: 8.33333333%;
+
+// global grid rules
+.sc-gs-col {
+	display: table;
+	padding: 0px 15px;
+	float: left;
+}
+
+// define how big the columns are
+@function sc-gs-size-g12($n) {
+ 	@return $n * $sc-gs-size-g12;
+}
+
+// outputs css for the columns
+@for $i from 1 through 12 {
+	.sc-gs-#{$i} {
+		width: sc-gs-size-g12($i);
+	}
+}
+
+// outputs responsive css
+@media only screen and (max-width: 767px) {
+	@for $i from 1 through 12 {
+		.sc-gs-#{$i} {
+			width: 100%;
+		}
+	}
+}
+
+

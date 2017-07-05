@@ -1,0 +1,4 @@
+.DS_Store
+/sc-gridsystem/
+/src/node_modules/
+/src/.sass-cache
