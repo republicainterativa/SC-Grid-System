@@ -8,11 +8,11 @@ Stable tag: 4.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A WordPress plugin where you can manage column sizes with shortcodes.
+A WordPress plugin which you can manage column sizes with shortcodes.
 
 == Description ==
 
-A WordPress plugin where you can manage column sizes with shortcodes.
+A WordPress plugin which you can manage column sizes with shortcodes.
 It is a 10, 12 and 16 columns Grid System.
 
 Made with SASS
@@ -45,8 +45,10 @@ Yes, of course you should! Just email, me: sergio.costa@outlook.com ! Thank you!
 
 = 1.0 =
 * Plugin created
+= 2.0 =
+* 10 and 16 columns available
 
 == Upgrade Notice ==
 
-= 2.0 =
-* 10 and 16 columns available
+= 3.0 =
+* soon
