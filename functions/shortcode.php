@@ -1,5 +1,78 @@
 <?php
 
+/**
+ * @param $atts
+ * @param null $content
+ * @return string
+ * @description 10 column grid system shortcode
+ */
+// Add Shortcode to display 10 of 12 column grid
+function sc_gs_10_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-10">' . $content . '</div>';
+}
+add_shortcode( '10_of_10', 'sc_gs_10_of_10' );
+
+// Add Shortcode to display 9 of 12 column grid
+function sc_gs_9_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-9">' . $content . '</div>';
+}
+add_shortcode( '9_of_10', 'sc_gs_9_of_10' );
+
+// Add Shortcode to display 8 of 12 column grid
+function sc_gs_8_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-8">' . $content . '</div>';
+}
+add_shortcode( '8_of_10', 'sc_gs_8_of_10' );
+
+// Add Shortcode to display 7 of 12 column grid
+function sc_gs_7_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-7">' . $content . '</div>';
+}
+add_shortcode( '7_of_10', 'sc_gs_7_of_10' );
+
+// Add Shortcode to display 6 of 12 column grid
+function sc_gs_6_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-6">' . $content . '</div>';
+}
+add_shortcode( '6_of_10', 'sc_gs_6_of_10' );
+
+// Add Shortcode to display 5 of 12 column grid
+function sc_gs_5_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-5">' . $content . '</div>';
+}
+add_shortcode( '5_of_10', 'sc_gs_5_of_10' );
+
+// Add Shortcode to display 4 of 12 column grid
+function sc_gs_4_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-4">' . $content . '</div>';
+}
+add_shortcode( '4_of_10', 'sc_gs_4_of_10' );
+
+// Add Shortcode to display 3 of 12 column grid
+function sc_gs_3_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-3">' . $content . '</div>';
+}
+add_shortcode( '3_of_10', 'sc_gs_3_of_10' );
+
+// Add Shortcode to display 2 of 12 column grid
+function sc_gs_2_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-2">' . $content . '</div>';
+}
+add_shortcode( '2_of_10', 'sc_gs_2_of_10' );
+
+// Add Shortcode to display 1 of 12 column grid
+function sc_gs_1_of_10( $atts, $content = null ) {
+	return '<div class="sc-gs-col sc-gs-10-1">' . $content . '</div>';
+}
+add_shortcode( '1_of_10', 'sc_gs_1_of_10' );
+
+
+/**
+ * @param $atts
+ * @param null $content
+ * @return string
+ * @description 12 column grid system shortcode
+ */
 // Add Shortcode to display 12 of 12 column grid
 function sc_gs_12_of_12( $atts, $content = null ) {
 	return '<div class="sc-gs-col sc-gs-12-12">' . $content . '</div>';
