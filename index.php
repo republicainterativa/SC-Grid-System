@@ -3,9 +3,9 @@
  * Plugin Name: SC GridSystem
  * Plugin URI: https://profiles.wordpress.org/sergiuscosta
  * Description: A simple GridSystem you could use with Shortcodes
- * Version: 1.0.0
+ * Version: 2.0.0
  * Author: Sergio Costa
- * Author URI: http://sergiocosta.net.br/
+ * Author URI: http://republicainterativa.com.br/
  * Text Domain: scgs
  * License: GPLv2 or later
  */

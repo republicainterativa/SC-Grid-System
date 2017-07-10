@@ -1,7 +1,7 @@
 /*!
  * -------------------------------------------------------
  * Project: Sergio Costa GridSystem with ShortCode
- * Version: 1.0.0
+ * Version: 2.0.0
  *
  * Author:  Sergio Costa
  * URL:     http://republicainterativa.com.br
@@ -9,8 +9,7 @@
  *
  *-------------------------------------------------------- */
 
-// column size
-
+// column sizes
 $sc-gs-size-g10: 10%;
 $sc-gs-size-g12: 8.33333333%;
 $sc-gs-size-g16: 6.25%;
@@ -29,6 +28,9 @@ $sc-gs-size-g16: 6.25%;
 @function sc-gs-size-g12($n) {
 	@return $n * $sc-gs-size-g12;
 }
+@function sc-gs-size-g16($n) {
+	@return $n * $sc-gs-size-g16;
+}
 
 // outputs css for the columns
 @for $i from 1 through 10 {
@@ -39,6 +41,11 @@ $sc-gs-size-g16: 6.25%;
 @for $i from 1 through 12 {
 	.sc-gs-12-#{$i} {
 		width: sc-gs-size-g12($i);
+	}
+}
+@for $i from 1 through 16 {
+	.sc-gs-16-#{$i} {
+		width: sc-gs-size-g16($i);
 	}
 }
 
