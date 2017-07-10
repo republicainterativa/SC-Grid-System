@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                     "<%= dirs.css %>/{,*/}*.css",
                     "<%= dirs.sass %>/{,*/}*.{scss,sass}"
                 ],
-                tasks: ["compass", "notify:compass"]
+                tasks: ["compass"]
             }
         },
 
@@ -53,17 +53,6 @@ module.exports = function(grunt) {
                     config: "config.rb"
                 }
             }
-        },
-
-        // Notify
-        // Para instalar na pasta src do projeto: $ npm install grunt-notify --save-dev
-        notify: {
-          compass: {
-            options: {
-              title: "SASS - <%= pkg.title %>",
-              message: "Compilado e minificado com sucesso!"
-            }
-          }
         },
 
     };

@@ -8,20 +8,20 @@ It is a 12 columns Grid System (from 1 to 12, 12 being 100% width)
 ## To specify the column size of your element, just follow the exemple bellow
 
 ```css
-[col_6_of_12]
+[6_of_12]
 	{{content}}
-[/col_6_of_12]
+[/6_of_12]
 /* If you want to use the 6-column grid, for example */
 
-[col_12_of_12]
+[12_of_12]
 	{{content}}
 [/col_12_of_12]
 /* If you want to use the 12-column grid, for example */
 
 /* Pattern */
-[col_{n}_of_12]
+[{n}_of_12]
 	{{content}}
-[/col_{n}_of_12]
+[/{n}_of_12]
 /* Where {n} is your column size from 1 to 12 and {{content}} could be whatever you want to show inside the column element */
 ```
 

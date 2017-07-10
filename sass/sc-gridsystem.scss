@@ -9,8 +9,11 @@
  *
  *-------------------------------------------------------- */
 
-// column size 
+// column size
+
+$sc-gs-size-g10: 10%;
 $sc-gs-size-g12: 8.33333333%;
+$sc-gs-size-g16: 6.25%;
 
 // global grid rules
 .sc-gs-col {
@@ -20,23 +23,37 @@ $sc-gs-size-g12: 8.33333333%;
 }
 
 // define how big the columns are
+//@function sc-gs-size-g10($n) {
+//	@return $n * $sc-gs-size-g10;
+//}
 @function sc-gs-size-g12($n) {
- 	@return $n * $sc-gs-size-g12;
+	@return $n * $sc-gs-size-g12;
 }
+//@function sc-gs-size-g16($n) {
+//	@return $n * $sc-gs-size-g16;
+//}
 
 // outputs css for the columns
+//@for $i from 1 through 10 {
+//	.sc-gs-10-#{$i} {
+//		width: sc-gs-size-g10($i);
+//	}
+//}
 @for $i from 1 through 12 {
-	.sc-gs-#{$i} {
+	.sc-gs-12-#{$i} {
 		width: sc-gs-size-g12($i);
 	}
 }
+//@for $i from 1 through 16 {
+//	.sc-gs-16-#{$i} {
+//		width: sc-gs-size-g16($i);
+//	}
+//}
 
 // outputs responsive css
 @media only screen and (max-width: 767px) {
-	@for $i from 1 through 12 {
-		.sc-gs-#{$i} {
-			width: 100%;
-		}
+	.sc-gs-col {
+		width: 100% !important;
 	}
 }
 

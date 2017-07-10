@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zergiocosta/SC-GridSystem"
+    "url": "https://github.com/republicainterativa/SC-GridSystem"
   },
   "keywords": [
     "grid",
@@ -21,7 +21,6 @@
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-notify": "^0.3.0",
     "matchdep": "^0.3.0"
   }
 }
