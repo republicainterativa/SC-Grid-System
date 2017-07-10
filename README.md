@@ -34,4 +34,4 @@ It is a 10, 12 and 16 columns Grid System
 
 
 ## License
-[![WTFPL](wtfpl-badge.png "WTFPL")](https://github.com/zergiocosta/SC-GridSystem/blob/master/LICENSE)
+[![WTFPL](wtfpl-badge.png "WTFPL")](https://github.com/republicainterativa/SC-Grid-System/blob/master/LICENSE)
