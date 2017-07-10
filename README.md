@@ -29,8 +29,8 @@ It is a 10, 12 and 16 columns Grid System
 */
 ```
 
-### Download from WordPress plugins repository
-[SC GridSystem - You can download from the WordPress Plugins Repository](https://wordpress.org/plugins/sc-gridsystem/)
+### Download from WordPress plugin repository
+[SC GridSystem - You can download from the WordPress Plugin Repository](https://wordpress.org/plugins/sc-gridsystem/)
 
 
 ## License
