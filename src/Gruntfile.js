@@ -10,7 +10,7 @@
 
 module.exports = function(grunt) {
 
-    // Para instalar matchdep na pasta src do projeto: $ npm install matchdep
+    // Para instalar matchdep na pasta src do projeto: $ npm install matchdep --save-dev
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     var projectConfig = {
